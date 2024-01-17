@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "linear"
+version = "0.1.0"
+description = "Algebra with linear variables and expressions in Python for generating dense and sparse matrix equations for solution with Numpy and Scipy."
+authors = ["Brian Petersen <brianjpetersen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.25.1"
+scipy = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
